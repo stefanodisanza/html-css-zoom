@@ -10,10 +10,13 @@ img{
     max-width: 100%;
 }
 
+
+
 .main{
     background-color: black;
     padding-top: 80px;
-    height: calc(100vh - 100px)
+    height: calc(100vh - 100px);
+    position: relative;
     
 }
 
@@ -33,6 +36,7 @@ img{
 
 .cam{
    max-width: calc(100% / 7);
+   position: relative;
    
 
 
@@ -48,5 +52,36 @@ img{
 }
 
 .utente{
-    background-color: aliceblue;
+    color: white;
+    background-color: rgba(black, 0.5);
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    padding: 2px 5px;
+   
+    
+}
+
+.vista{
+    color: white;
+    display: flex;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+   
+   
+}
+
+.speaker-view{
+   background-color:rgba(245,245,245,0.5);
+   padding: 3px 5px;
+   border-radius: 5px;
+   margin: 5px;
+}
+
+.expand{
+    background-color:rgba(245,245,245,0.5);
+   padding: 3px 5px;
+   border-radius: 5px;
+   margin: 5px;
 }

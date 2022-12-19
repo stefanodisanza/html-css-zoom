@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+.main{
+    background-color: black;
+    padding-top: 80px;
+    height: calc(100vh - 100px)
+    
+}
+
+.container-cam{
+    max-width: 1820px;
+    margin: 0  auto;
+
+    
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+    
+}
+
+.cam{
+   max-width: calc(100% / 7);
+   
+
+
+
+}
+
+
+.toolbar{
+    padding-top: 84px;
+    background-color: #222222;
+    
+    
+}
+
+.utente{
+    background-color: aliceblue;
+}

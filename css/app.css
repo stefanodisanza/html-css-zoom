@@ -10,7 +10,9 @@ img{
     max-width: 100%;
 }
 
-
+i{
+    color: white;
+}
 
 .main{
     background-color: black;
@@ -45,15 +47,15 @@ img{
 
 
 .toolbar{
-    padding-top: 84px;
     background-color: #222222;
-    
+    display: flex;
+    justify-content: space-between;    
     
 }
 
 .utente{
     color: white;
-    background-color: rgba(black, 0.5);
+    background-color:rgba(48, 46, 46, 0.549);
     display: flex;
     position: absolute;
     bottom: 5px;
@@ -85,3 +87,11 @@ img{
    border-radius: 5px;
    margin: 5px;
 }
+
+
+.icon-left,
+.icon-center{
+   font-size: 36px;
+}
+
+

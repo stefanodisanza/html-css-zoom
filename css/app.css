@@ -17,7 +17,7 @@ i{
 .main{
     background-color: black;
     padding-top: 80px;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 106px);
     position: relative;
     
 }
@@ -48,9 +48,12 @@ i{
 
 .toolbar{
     background-color: #222222;
+    padding: 25px;
     display: flex;
-    justify-content: space-between;    
-    
+    justify-content: space-between; 
+    bottom: 0px;
+    width: 100%;
+    z-index: 999;
 }
 
 .utente{
@@ -92,6 +95,14 @@ i{
 .icon-left,
 .icon-center{
    font-size: 36px;
+   display: flex;
 }
 
+span{
+    font-size: 12px;
+    color: white;
+}
 
+.iconegrandi{
+    margin: 10px;
+}
